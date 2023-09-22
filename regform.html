@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="mountain hotel with rooms, restaurant and bar">
+    <meta name="keywords" content="hotel, 5 star, restaurant, bar, sports">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Hämmerle and Sons Hotel</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="impressum.html">Impressum</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Hotel Hämmerle</h1>
+        <h2>Hier zur Registrierung für die Website:</h2>
+
+        <form action="formdata.html" method="GET">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+          </div>
+          
+          <div>
+            <label for="Telefon">Telefon</label>
+            <input type="tel" name="Telefon" id="Telefon">
+          </div>
+          
+          <div>
+            <label for="date">Geburtstag</label>
+            <input type="date" name="date" id="date" min="2007-22-09">
+          </div>
+          <div>
+            <h3>bevorzugte Ernährung:</h3>
+            <div>
+              <label for="keine">Keine</label>
+              <input type="radio" name="keine" id="keine">
+            </div>
+            <div>
+              <label for="vegan">Vegan</label>
+              <input type="radio" name="vegan" id="vegan">
+            </div>
+            <div>
+              <label for="vegetarisch">Vegetarisch</label>
+              <input type="radio" name="vegetarisch" id="vegetarisch">
+            </div>
+          </div>
+          <div>
+            <h3>Geschlecht:</h3>
+            <div>
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="male" value="male">
+            </div>
+            <div>
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="female" value="female">
+            </div>
+            <div>
+              <label for="diverse">Diverse</label>
+              <input type="radio" name="gender" id="diverse" value="diverse">
+            </div>
+          </div>
+
+          <div>
+            <label>
+              <h3>Password</h3>
+              <input type="password" name="password" required>
+            </label>
+          </div>
+
+          <button type="reset">Reset</button>
+          <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
