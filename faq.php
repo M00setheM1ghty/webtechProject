@@ -11,33 +11,33 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand">
+<nav class="navbar navbar-expand">
         <div class="container">
-          <a href="#" class="navbar-brand">HS</a>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link">Startseite</a>
-            </li>
-            <li class="nav-item">
-              <a href="impressum.html" class="nav-link">Impressum</a>
-            </li>
-            <li class="nav-item">
-              <a href="faq.html" class="nav-link">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a href="regform.html" class="nav-link">Registrierung</a>
-            </li>
-          </ul>
+            <a href="#" class="navbar-brand">HS</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.php" class="nav-link">Startseite</a>
+                </li>
+                <li class="nav-item">
+                    <a href="impressum.php" class="nav-link">Impressum</a>
+                </li>
+                <li class="nav-item">
+                    <a href="faq.php" class="nav-link">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="regform.php" class="nav-link">Registrierung</a>
+                </li>
+            </ul>
         </div>
-      </nav>
+    </nav>
     <main>
         <div class="container">
             <h1>FAQ</h1>
             <ul>
-                <li>Wo finde ich das Impressum? <a href="impressum.html">Impressum</a></li>
-                <li>Wo kann ich mich registrieren? <a href="regform.html">Registrierung</a></li>
-                <li>Wo kann ich mich einloggen? <a href="login.html">Login</a></li>
-                <li>Navigation zur Startseite: <a href="index.html">Startseite</a></li>
+                <li>Wo finde ich das Impressum? <a href="impressum.php">Impressum</a></li>
+                <li>Wo kann ich mich registrieren? <a href="regform.php">Registrierung</a></li>
+                <li>Wo kann ich mich einloggen? <a href="login.php">Login</a></li>
+                <li>Navigation zur Startseite: <a href="index.php">Startseite</a></li>
                 <li>Hotel Standort: <a href="https://bit.ly/46jbrsl" target="_blank" rel="noopener">Maps</a></li>
             </ul>
         </div>
