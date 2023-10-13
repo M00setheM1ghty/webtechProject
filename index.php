@@ -22,16 +22,16 @@
             <a href="#" class="navbar-brand">HS</a>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">Startseite</a>
+                    <a href="index.php" class="nav-link">Startseite</a>
                 </li>
                 <li class="nav-item">
-                    <a href="impressum.html" class="nav-link">Impressum</a>
+                    <a href="impressum.php" class="nav-link">Impressum</a>
                 </li>
                 <li class="nav-item">
-                    <a href="faq.html" class="nav-link">FAQ</a>
+                    <a href="faq.php" class="nav-link">FAQ</a>
                 </li>
                 <li class="nav-item">
-                    <a href="regform.html" class="nav-link">Registrierung</a>
+                    <a href="regform.php" class="nav-link">Registrierung</a>
                 </li>
             </ul>
         </div>

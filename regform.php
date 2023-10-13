@@ -17,26 +17,26 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand">
-      <div class="container">
-        <a href="#" class="navbar-brand">HS</a>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">Startseite</a>
-          </li>
-          <li class="nav-item">
-            <a href="impressum.html" class="nav-link">Impressum</a>
-          </li>
-          <li class="nav-item">
-            <a href="faq.html" class="nav-link">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a href="regform.html" class="nav-link">Registrierung</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
- 
+  <nav class="navbar navbar-expand">
+    <div class="container">
+      <a href="#" class="navbar-brand">HS</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="index.php" class="nav-link">Startseite</a>
+        </li>
+        <li class="nav-item">
+          <a href="impressum.php" class="nav-link">Impressum</a>
+        </li>
+        <li class="nav-item">
+          <a href="faq.php" class="nav-link">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a href="regform.php" class="nav-link">Registrierung</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
   <main>
     <div class="container">
       <h1>Hotel Hämmerle</h1>
@@ -44,7 +44,7 @@
     </div>
 
     <div class="container">
-      <form action="formdata.html" method="GET">
+      <form action="formdata.php" method="GET">
         <div>
           <label for="name" class="form-label">Name</label>
           <input type="text" name="name" id="name" class="form-control" required>
