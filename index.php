@@ -6,11 +6,14 @@
 </head>
 
 <body>
-    <?php include 'components/navbar.php'; ?>
+    <?php include 'components/navbar_anon.php'; ?>
     <main>
         <div class="container">
             <h1>Hotel Hämmerle</h1>
             <p>Willkommen bei uns im schönen Lech am Arlberg!</p>
+        </div>
+        <div class="container">
+            <h2>News und Aktuelles</h2>
         </div>
         <?php
         require_once('dbaccess.php');
@@ -21,7 +24,7 @@
             exit();
         }
         $sql =
-            "SELECT * FROM test";
+            "SELECT * FROM user_data";
         $result = $db_obj->query($sql);
         echo "<pre>" . print_r($result->fetch_array(), true) . "</pre>";
         ; ?>

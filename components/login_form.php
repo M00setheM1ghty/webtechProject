@@ -1,3 +1,4 @@
+<div class="container">
 <form>
   <!-- Email input -->
   <div class="form-outline mb-4">
@@ -35,3 +36,4 @@
     <p>Not a member? <a href="#!">Register</a></p>
   </div>
 </form>
+</div>

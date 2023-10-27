@@ -1,0 +1,45 @@
+CREATE TABLE rollen
+(
+    rollen_id int not null PRIMARY KEY,
+    beschreibung text
+);
+CREATE TABLE ernaehrung
+(
+    ernaehrung_id int not null PRIMARY KEY,
+    beschreibung text
+);
+
+CREATE TABLE user_data 
+(
+	user_id int not null AUTO_INCREMENT PRIMARY KEY,
+    rollen_id int,
+    FOREIGN KEY rollen_id REFERENCES rollen(rollen_id)
+);
+CREATE TABLE allergien
+(
+    allergien_id int not null PRIMARY KEY,
+    beschreibung text
+);
+
+CREATE TABLE user_profil
+(
+	vorname VARCHAR(30),
+    nachname VARCHAR(30),
+    email VARCHAR(50),
+    reg_datum TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    gender VARCHAR(10),
+    allergien_id int,
+    ernaehrung_id int,
+    FOREIGN KEY (allergien_id) REFERENCES allergien(allergien_id),
+    FOREIGN KEY (ernaehrung_id) REFERENCES ernaehrung(ernaehrung_id)
+);
+CREATE TABLE reservierung
+(
+	reservierung_id int not null PRIMARY KEY,
+    reservierte_zimmer VARCHAR() UNIQUE,
+    datum_reservierung_anfang date not null,
+    datum_reservierung_ende date not null,
+    user_id int not null,
+    FOREIGN KEY (user_id) REFERENCES user_data(user_id)
+);
+

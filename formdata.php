@@ -14,7 +14,7 @@
 
 <body>
     <div id="results"></div>
-    <a href="/regform.php">zurück zur formseite</a>
+    <a href="registration.php">zurück zur formseite</a>
     <script>
         const resultsList = document.getElementById("results")
         new URLSearchParams(window.location.search).forEach((value, name) => {

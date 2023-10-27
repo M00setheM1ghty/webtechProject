@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <?php include 'components/navbar.php'; ?>
+    <?php include 'components/navbar_anon.php'; ?>
     <main>
         <div class="container">
             <h1>FAQ</h1>
