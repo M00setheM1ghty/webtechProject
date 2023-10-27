@@ -12,7 +12,7 @@
                     <a href="faq.php" class="nav-link">FAQ</a>
                 </li>
                 <li class="nav-item">
-                    <a href="regform.php" class="nav-link">Registrierung</a>
+                    <a href="registration.php" class="nav-link">Registrierung</a>
                 </li>
             </ul>
         </div>
