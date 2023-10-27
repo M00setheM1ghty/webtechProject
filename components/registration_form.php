@@ -35,24 +35,15 @@
   <div>
     <label for="nutrition" class="form-label">bevorzugte Ernährung:</label>
     <select id="nutrition" title="ernährung" class="form-select">
-      <option value="Allesfresser">Allesfresser</option>
-      <option value="Vegetarier">Vegetarier</option>
-      <option value="Vegan">Veganer</option>
-      <option value="pescetarier">Pescetarier</option>
+      <option value="allesesser">keine Präferenz</option>
+      <option value="Vegetarier">Vegetarisch</option>
+      <option value="Vegan">Vegan</option>
+      <option value="pescetarier">Pescetarisch</option>
     </select>
   </div>
-
-  <label for="unverträglickeiten" class="form-label">Unverträglichkeiten:</label>
-  <div class="form-check" id="unverträglichkeiten">
-    <input title="Nüsse" for="nüsse" type="checkbox" class="form-check-input" />
-    <label for="nüsse">Nüsse</label>
-  </div>
-  <div class="form-check">
-    <input title="milchprodukte" for="milchprodukte" type="checkbox" class="form-check-input" />
-    <label for="milchprodukte">Milchprodukte</label>
-  </div>
-  <div class="form-check">
-    <label for="andere">Andere</label>
+  <br>
+  <div class="form-control">
+    <label for="andere">Unverträglichkeiten</label>
     <input title="andere" for="andere" type="text" class="form-control" />
   </div>
 
