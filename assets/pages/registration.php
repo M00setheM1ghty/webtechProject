@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <?php include 'components/head.php'; ?>
+<?php include(dirname(__DIR__).'/components/head.php'); ?>
 </head>
 
 <body>
-  <?php include 'components/navbar_anon.php'; ?>
+<?php include(dirname(__DIR__).'/components/navbar_anon.php'); ?>
 
   <main>
     <div class="container">
@@ -15,7 +15,7 @@
     </div>
 
     <div class="container">
-      <?php include 'components/registration_form.php'; ?>
+    <?php include(dirname(__DIR__).'/components/registration_form.php'); ?>
     </div>
   </main>
 </body>
