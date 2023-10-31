@@ -43,3 +43,6 @@ CREATE TABLE reservierung
     FOREIGN KEY (user_id) REFERENCES user_data(user_id)
 );
 
+ALTER TABLE user_profil
+ADD user_id int,
+ADD FOREIGN KEY(user_id) REFERENCES user_data(user_id);

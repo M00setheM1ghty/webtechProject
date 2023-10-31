@@ -1,0 +1,4 @@
+NUll -> autoincrement assigns a value to user_id
+
+INSERT INTO `user_data`(`user_id`, `rollen_id`) VALUES ('NULL','1');
+INSERT INTO `user_data`(`user_id`, `rollen_id`) VALUES ('NULL','2');
