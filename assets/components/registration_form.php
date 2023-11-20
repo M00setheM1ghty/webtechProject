@@ -1,11 +1,11 @@
-<form action="formdata.php" method="GET">
+<form action="registration.php" method="post">
   <div>
     <label for="anrede" class="form-label">Anrede</label>
     <input type="text" name="name" id="anrede" class="form-control" required>
   </div>
   <div>
-    <label for="name" class="form-label">Name</label>
-    <input type="text" name="name" id="name" class="form-control" required>
+    <label for="fname" class="form-label">Name</label>
+    <input type="text" name="fname" id="fname" class="form-control" required>
   </div>
   <div>
     <label for="lname" class="form-label">Nachname</label>
@@ -29,7 +29,7 @@
     <label for="password" class="form-label">Passwort</label>
       <input type="password" name="password" id="passwort" class="form-control" required>
     <label for="password-check" class="form-label">Passwort-Check</label>
-      <input type="password" name="password" id="password-check" class="form-control" required>
+      <input type="password" name="password-check" id="password-check" class="form-control" required>
   </div>
 
   <div>
@@ -62,8 +62,6 @@
       <input type="radio" name="gender" id="diverse" value="diverse">
     </div>
   </div>
-
-
 
   <button type="reset">Reset</button>
   <button type="submit">Submit</button>

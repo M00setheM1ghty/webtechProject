@@ -2,11 +2,15 @@
 <html lang="en">
 
 <head>
-<?php include(dirname(__DIR__).'/components/head.php'); ?>
+  <?php include(dirname(__DIR__) . '/components/head.php'); ?>
 </head>
 
 <body>
-<?php include(dirname(__DIR__).'/components/navbar_anon.php'); ?>
+  <?php
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
+  ?>
+  <?php include(dirname(__DIR__) . '/components/nav.php'); ?>
 
   <main>
     <div class="container">
@@ -15,7 +19,23 @@
     </div>
 
     <div class="container">
-    <?php include(dirname(__DIR__).'/components/registration_form.php'); ?>
+      <?php include(dirname(__DIR__) . '/components/registration_form.php'); ?>
+      
+      <h3>Registriert als:</h3>
+      <?php
+      if (isset($_POST["fname"]) && isset($_POST["lname"])) {
+        echo $_POST["fname"];
+        echo $_POST["lname"];
+      }
+      ?>
+      
+      <h3>Mit dieser Email:</h3>
+      <?php
+      if (isset($_POST["fname"])) {
+        echo $_POST["email"];
+      }
+      ?>
+ 
     </div>
   </main>
 </body>
