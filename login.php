@@ -14,7 +14,6 @@ ini_set('display_errors', 1);
 <?php include("nav.php"); ?>
     <main>
     <?php include("login_form.php"); ?>
-    <h2>hello</h2>
     </main>
 </body>
 

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <?php 
+    <?php
     include("head.php");
     ?>
 </head>
@@ -30,6 +30,20 @@
         $result = $db_obj->query($sql);
         echo "<pre>" . print_r($result->fetch_array(), true) . "</pre>";
         ; ?>
+        
+        <h3>Logged in als:</h3>
+        <?php
+        if (isset($_POST["password"])) {
+            echo $_POST["password"];
+        }
+        ?>
+
+        <h3>Mit dieser Email:</h3>
+        <?php
+        if (isset($_POST["email"])) {
+            echo $_POST["email"];
+        }
+        ?>
     </main>
 </body>
 

@@ -23,15 +23,15 @@
 
       <h3>Registriert als:</h3>
       <?php
-      if (isset($_POST["fname"]) && isset($_POST["lname"])) {
-        echo $_POST["fname"];
-        echo $_POST["lname"];
+      if (isset($_POST["username"])) {
+        echo $_POST["username"];
+        
       }
       ?>
 
       <h3>Mit dieser Email:</h3>
       <?php
-      if (isset($_POST["fname"])) {
+      if (isset($_POST["email"])) {
         echo $_POST["email"];
       }
       ?>

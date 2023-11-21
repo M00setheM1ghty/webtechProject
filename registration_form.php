@@ -12,6 +12,10 @@
     <input type="text" name="lname" id="lname" class="form-control" required>
   </div>
   <div>
+    <label for="username" class="form-label">Name</label>
+    <input type="text" name="username" id="username" class="form-control" required>
+  </div>
+  <div>
     <label for="email" class="form-label">Email</label>
     <input type="email" name="email" id="email" class="form-control" required>
   </div>
