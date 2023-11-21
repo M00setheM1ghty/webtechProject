@@ -1,5 +1,5 @@
 <div class="container">
-  <form method="post" action="index.php">
+  <form method="post" action="login.php">
     <!-- Email input -->
     <div class="form-outline mb-4">
       <input type="text" id="username" class="form-control" name="username" />
@@ -11,7 +11,7 @@
       <input type="password" id="password" class="form-control" name="password" />
       <label class="form-label" for="password">Password</label>
     </div>
-
+    <div class="error"><?php if(isset($loginError)){echo $loginError;}?></div>
     <!-- 2 column grid layout -->
     <div class="row mb-4">
       <div class="col d-flex justify-content-center">
@@ -29,7 +29,7 @@
     </div>
 
     <!-- submit button -->
-    <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+    <button type="submit" name="login" class="btn btn-primary btn-block mb-4">Sign in</button>
 
     <!-- register button -->
     <div class="text-center">
