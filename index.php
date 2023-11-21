@@ -2,11 +2,13 @@
 <html lang="en">
 
 <head>
-    <?php include('components/head.php'); ?>
+    <?php 
+    include("head.php");
+    ?>
 </head>
 
 <body>
-    <?php include(dirname(__DIR__).'/components/nav.php'); ?>
+    <?php include("nav.php"); ?>
     <main>
         <div class="container">
             <h1>Hotel Hämmerle</h1>

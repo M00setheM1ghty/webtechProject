@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-<?php include(dirname(__DIR__).'/components/head.php'); ?>
+<?php include("head.php"); ?>
 </head>
 
 <body>
-<?php include(dirname(__DIR__).'/components/navbar_anon.php'); ?>
+<?php include("nav.php"); ?>
     <main>
         <div class="container">
             <h1>FAQ</h1>

@@ -7,13 +7,13 @@ ini_set('display_errors', 1);
 ?>
 
 <head>
-<?php include(dirname(__DIR__).'/components/head.php'); ?>
+<?php include("head.php"); ?>
 </head>
 
 <body>
-<?php include(dirname(__DIR__).'/components/nav.php'); ?>
+<?php include("nav.php"); ?>
     <main>
-    <?php include(dirname(__DIR__).'/components/login_form.php'); ?>
+    <?php include("login_form.php"); ?>
     <h2>hello</h2>
     </main>
 </body>

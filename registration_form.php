@@ -1,4 +1,4 @@
-<form action="registration.php" method="post">
+<form method="post" action="registration.php">
   <div>
     <label for="anrede" class="form-label">Anrede</label>
     <input type="text" name="name" id="anrede" class="form-control" required>
