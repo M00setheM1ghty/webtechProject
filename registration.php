@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<style>
+.error {color: #FF0000;}
+</style>
 <head>
   <?php include("head.php"); ?>
 </head>
