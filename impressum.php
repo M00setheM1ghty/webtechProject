@@ -6,7 +6,7 @@
 </head>
 
 <body>
-<?php include(dirname(__DIR__).'/components/navbar_anon.php'); ?>
+<?php include(dirname(__DIR__).'/components/nav.php'); ?>
     <main>
         <div class="container">
             <div class="impressum-div">
