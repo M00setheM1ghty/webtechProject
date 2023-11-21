@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <?php include '/components/head.php'; ?>
+    <?php include('components/head.php'); ?>
 </head>
 
 <body>
